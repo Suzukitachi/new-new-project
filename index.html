@@ -25,3 +25,34 @@
     </footer>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Photo Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="image">
+  </div>
+  <div class="preview-container">
+    <img class="preview" 
+         src="https://picsum.photos/id/1015/600/400" 
+         alt="Cảnh núi sông hùng vĩ" 
+         onmouseover="upDate(this)" 
+         onmouseout="unDo()">
+    <img class="preview" 
+         src="https://picsum.photos/id/1018/600/400" 
+         alt="Thung lũng mùa thu" 
+         onmouseover="upDate(this)" 
+         onmouseout="unDo()">
+    <img class="preview" 
+         src="https://picsum.photos/id/1025/600/400" 
+         alt="Chú chó đáng yêu" 
+         onmouseover="upDate(this)" 
+         onmouseout="unDo()">
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
